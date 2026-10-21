@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mock-bank
+  datasource:
+    url: jdbc:postgresql://localhost:5433/spendinsights
+    username: spend
+    password: spend
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+server:
+  port: 8081
